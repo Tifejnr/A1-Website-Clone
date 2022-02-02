@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate%</title>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+<body>
+<div>
+<label for=""> Wins: </label>
+<input type="number" onKeyDown="if(this.value.length==2) return false;" id="input1">
+<label for="" > Loses:</label>
+<input type="number" onKeyDown="if(this.value.length==2) return false;" id="input2">
+<label for=""> Total:</label>
+<input type="number" onKeyDown="if(this.value.length==2) return false;" id="input3">
+</div>
+
+
+<div id="button">
+    <button id="1.20" onclick="odds120Prob()">1.20 Odds </button>
+    <button id="1.50" onclick="odds150Prob()"> 1.50 Odds</button>
+    <button id="1.80" onclick="odds180Prob()"> 1.80 Odds</button>
+    <button id="1.80" onclick="clearbtn ()"> Restart </button>
+</div>
+
+<div id="results">
+    <p id="result1"> 0% </p>
+    <p id="result2"> 0%</p>
+    <p id="result3"> 0% </p>
+    
+    </div >
+
+<div id="results">
+        <p id="result1a"> 0 </p>
+        <p id="result2a"> 0 </p>
+        <p id="result3a"> 0 </p>
+        
+</div >
+<script src="calculate.js"></script>
+</body>
+</html>
+
+
+27-01-2022
+
+W 1.20: 91%
+
+L 1.20: 9%
+
+D 1.20: 0%
+
+
+W 1.50: 67%
+
+L 1.50: 17%
+
+D 1.50: 17%
+
+
+
+W 1.80 : 67%
+
+L 1.80 :14%
+
+D 1.80 :19%
+
+
+
+
+28-01-2022
+
+W 1.50: 40%
+
+L 1.50: 13%
+
+D 1.50: 47%
+
+
+
+W 1.80 : 65%
+
+L 1.80 :15%
+
+D 1.80 :20%
+
+
+W 1.20: 100%
+
+L 1.20: 0%
+
+D 1.20: 0%
+
+
+
+29-01-2022
+
+W 1.20: 75%
+
+L 1.20: 13%
+
+D 1.20: 13%
+
+
+W 1.80 : 52%
+
+L 1.80 :23%
+
+D 1.80 :26%
+
+
+
+W 1.50: 62%
+
+L 1.50: 21%
+
+D 1.50: 18%
+
